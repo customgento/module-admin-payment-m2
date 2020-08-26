@@ -15,6 +15,4 @@ class AdminPayment extends AbstractMethod
     protected $_isOffline = true;
 
     protected $_canUseCheckout = false;
-
-    protected $_canUseInternal = true;
 }
