@@ -1,0 +1,26 @@
+{
+  "name": "customgento/module-admin-payment-m2",
+  "description": "This extension adds an internal payment method (only for admin orders).",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Team CustomGento",
+      "email": "info@customgento.com"
+    }
+  ],
+  "require": {
+      "php": "~7.3.0||~7.4.0",
+      "magento/module-payment": "~100.4",
+      "magento/module-store": "~101.1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "CustomGento\\AdminPayment\\": ""
+    }
+  }
+}
