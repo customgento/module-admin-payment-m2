@@ -1,6 +1,6 @@
-# CustomGento_AdminPayment for Magento 2
+# Admin Payment for Magento 2
 
-This extension adds an internal payment method in the admin area.
+Admin Payment for Magento 2 adds an internal payment method in the admin area. This method will not be shown for customers in the checkout, but is only meant to be used for orders, which are created by an admin in the backend.
 
 ## Features
 <li>Enable/disable payment method globally</li>
