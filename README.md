@@ -15,4 +15,4 @@ Admin Payment for Magento 2 adds an internal payment method in the admin area. T
 * <code>bin/magento setup:di:compile</code>
 
 ## Copyright
-&copy; 2020 CustomGento GmbH
+&copy; 2020 - present CustomGento GmbH
