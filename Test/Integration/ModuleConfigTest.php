@@ -47,7 +47,6 @@ class ModuleConfigTest extends TestCase
         $this->assertArrayHasKey($this->subjectModuleName, $registrar->getPaths(ComponentRegistrar::MODULE));
     }
 
-
     public function testIsExtensionEnabledReturnsFalseByDefault(): void
     {
         $this->assertFalse($this->model->isExtensionEnabled());
@@ -60,6 +59,4 @@ class ModuleConfigTest extends TestCase
     {
         $this->assertTrue($this->model->isExtensionEnabled());
     }
-
-
 }
